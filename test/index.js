@@ -11,6 +11,7 @@ describe('Wait function simple test', () => {
     wait(1000);
     let now = new Date().getTime();
     let diff = now - before;
-    assert(diff >= 1000);
+    console.log(`${diff} milliseconds ellapsed`);
+    assert(diff >= 1000 && diff < 1500);
   });
 });
