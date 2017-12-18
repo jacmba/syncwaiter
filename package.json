@@ -1,0 +1,25 @@
+{
+  "name": "syncwaiter",
+  "version": "1.0.0",
+  "description": "Asynchronous waiting method",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jacmba/syncwaiter.git"
+  },
+  "keywords": [
+    "wait",
+    "syn",
+    "synch",
+    "pause"
+  ],
+  "author": "Jacinto Mba Cantero",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/jacmba/syncwaiter/issues"
+  },
+  "homepage": "https://github.com/jacmba/syncwaiter#readme"
+}
